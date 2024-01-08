@@ -199,7 +199,7 @@ section {
     text-align: center;
     padding-top: 100px;
     border-radius: 10px;
-
+    height: 382px;   /* padding top 100px+height 382=482(total height) */
 
 
 }
@@ -243,20 +243,18 @@ section {
 
 
 
+/* Event-details style end */
 
 
 
-
-
-/* Event-details style start */
-
+/* <!-- coming-soon start  --> */
 
 .coming-soon-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-  
+
 }
 
 .img-border>img {
@@ -265,7 +263,6 @@ section {
 }
 
 .img-border {
-    
     margin: auto;
     border-radius: 50%;
     border: 10px solid red;
@@ -343,23 +340,21 @@ section {
 
 
 
-/* Event-details style start */
+/*   <!-- coming-soon end  -->*/
 
 
 
 
+/* Holyday off style off start   */
 
 
 
-
-.holiday-section{
-    border: 2px solid red;
-}
+.holiday-section {}
 
 
 .holiday-text-container>h2 {
     color: #070211;
-    font-family: Inter;
+     font-family: 'Inter', sans-serif;
     font-size: 24px;
     text-align: center;
     font-weight: 500;
@@ -370,7 +365,7 @@ section {
 .holiday-text-container>h1 {
     color: #F00;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -379,7 +374,7 @@ section {
 
 .Sale-off {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -389,7 +384,7 @@ section {
 .holiday-text-container>p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -425,37 +420,35 @@ section {
     padding-left: 28px;
 }
 
-.Awesome-Portfolio-section{
-    border: 2px solid red;
-}
+
+/* Holyday off style off end  */
 
 
-.Awesome-Portfolio-text{
-    border: 2px solid red;
-}
+
+/* <!-- Awesome-Portfolio-style start  --> */
 
 .Awesome-Portfolio-text>h4 {
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 16px;
+font-style: normal;
+line-height: normal;
 }
 
 .Awesome-Portfolio-text>h1 {
     color: #070211;
-    font-family: Merriweather;
+    
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-bottom: 22px;
 }
 
 .Awesome-Portfolio-text>p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -465,38 +458,24 @@ section {
     padding-bottom: 48px;
 }
 
-
-/* .Awesome-Portfolio-images {
-    display: flex;
-    width: 324px;
-    max-width: 424px;
-    height: 450px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    padding-bottom: 24px;
-}
-
-.Awesome-Portfolio-images-padding {
-    padding-left: 20px;
-} */
-.img{
+.img {
     width: 33.33%;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
 }
 
-.img>img{
+.img>img {
     width: 100%;
     max-width: 424px;
     height: 450px;
 }
-.Awesome-Portfolio-images{
+
+.Awesome-Portfolio-images {
     display: flex;
     gap: 20px;
 }
 
 
-
-
+/* <!-- Awesome-Portfolio-style end  --> */
 
 
 
@@ -522,7 +501,7 @@ section {
 .subscribe-container>h2 {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -612,7 +591,7 @@ footer {
 
 .footer-content>span {
     color: #FFF;
-    font-family: Inter;
+     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
