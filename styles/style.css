@@ -437,9 +437,10 @@ section {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-padding-bottom: 16px;
+    padding-bottom: 16px;
 }
-.Awesome-Portfolio-text>h1{
+
+.Awesome-Portfolio-text>h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -449,15 +450,17 @@ padding-bottom: 16px;
     text-transform: capitalize;
     padding-bottom: 22px;
 }
-.Awesome-Portfolio-text>p{
+
+.Awesome-Portfolio-text>p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 896px;
-padding-bottom: 48px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    padding-bottom: 48px;
 }
 
 
@@ -466,25 +469,33 @@ padding-bottom: 48px;
 
 .Awesome-Portfolio-images>img {
     width: 424px;
-height: 450px;
-flex-shrink: 0;
-border-radius: 16px;
-padding-bottom: 24px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding-bottom: 24px;
 }
 
-.Awesome-Portfolio-images-padding{
+.Awesome-Portfolio-images-padding {
     padding-left: 20px;
 }
 
 
-
-.subscribe-section {}
+.subscribe-section{
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+}
 
 .subscribe-container {
     width: 896px;
-    border: 2px solid red;
     margin: auto;
     text-align: center;
+    border-radius: 16px;
+
+}
+
+.subscribe-icon {
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .subscribe-container>h2 {
@@ -496,6 +507,7 @@ padding-bottom: 24px;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    padding-bottom: 22px;
 }
 
 .subscribe-container>p {
@@ -506,32 +518,50 @@ padding-bottom: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    padding-bottom: 48px;
     /* 160% */
 }
 
-input {
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+.button_input {
     width: 648px;
     height: 72px;
     flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin: auto;
+    
 }
 
-.subscribe-container>button {
-    width: 210px;
-    height: 72px;
-    flex-shrink: 0;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
+input {
+    width: 430px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border: none;
 }
+
+.button_input>button {
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background: #070211;
