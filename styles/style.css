@@ -223,11 +223,19 @@ section {
 
 
 
-/* .coming-soon-container{
+
+
+
+
+
+
+
+.coming-soon-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 0px;
+    border: 1px solid red;
 }
 .img-border>img{
    padding: 30px;
@@ -240,7 +248,160 @@ section {
 
 .holiday-offer-section-images{
     background-image: url('../images/Rectangle\ 2.png');
+    background-size: contain;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: bottom center;
-}   */
+    border-radius: 10px;
+} 
+
+.text-container{
+    width: 690px;
+}
+.text-container>h2{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}  
+.text-container>h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.text-container>p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.text-and-image-container>h1{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text-and-image-container>p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.text-and-image-container>img{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+}
+.text-container>h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.text-container>h1{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.text-container>p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.text-container{
+    border: 2px solid red;
+    margin: auto;
+    width: 1067px;
+    padding-bottom: 67px;
+}
+.holiday-offer-section-images{
+    display: flex;
+    gap: 13px;
+    
+}
+.img-style{
+    
+}
+.discount-image{
+    position: relative;
+    top: 110px;
+    left: 105px;
+}
+.text-container>h3{
+
+}
+.Awesome-Portfolio-images{
+    display: flex;
+    gap: 20px;
+}
+.Awesome-Portfolio-images>img{
+    width: 324px;
+height: 350px;
+flex-shrink: 0;
+}
+
+
+
+
+
+.subscribe-section{
+
+}
+.subscribe-container{
+    width: 896px;
+    border: 2px solid red;
+    margin: auto;
+    text-align: center;
+}
+.subscribe-container>h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe-container>p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+
+
+
+
+
+
+
+
+
+
