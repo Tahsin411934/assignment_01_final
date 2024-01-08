@@ -83,7 +83,7 @@ section {
 .discount-txt>p {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 
@@ -134,7 +134,7 @@ section {
 
 .midnight-party-text>h1 {
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
@@ -251,6 +251,7 @@ section {
     align-items: center;
     justify-content: space-between;
     gap: 100px;
+  
 }
 
 .img-border>img {
@@ -259,7 +260,7 @@ section {
 }
 
 .img-border {
-    width: 33.33%;
+    
     margin: auto;
     border-radius: 50%;
     border: 10px solid red;
@@ -277,7 +278,7 @@ section {
 
 .text-container>h2 {
     color: #F00;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 24px;
     font-weight: 500;
     text-transform: capitalize;
@@ -287,8 +288,8 @@ section {
 
 .text-container>h1 {
     color: #070211;
-    font-family: Merriweather;
-    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -408,24 +409,14 @@ section {
 
 .discount-image {
     position: relative;
-    top: 260px;
-    left: 365px;
+    top: 160px;
+    left: 165px;
 }
-
-.image-style {}
-
-.img-discount {}
 
 .img-product {
-    padding-top: 156px;
-    padding-left: 270px;
+    padding-top: 37px;
+    padding-left: 28px;
 }
-
-
-
-
-
-
 
 
 
@@ -464,11 +455,10 @@ section {
 }
 
 
-
-
-
-.Awesome-Portfolio-images>img {
-    width: 424px;
+/* .Awesome-Portfolio-images {
+    display: flex;
+    width: 324px;
+    max-width: 424px;
     height: 450px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -477,9 +467,25 @@ section {
 
 .Awesome-Portfolio-images-padding {
     padding-left: 20px;
+} */
+
+.img>img{
+    width: 324px;
+    max-width: 424px;
+    height: 450px;
+}
+.Awesome-Portfolio-images{
+    display: flex;
+    gap: 20px;
 }
 
 
+
+
+
+
+
+/* subscribe-style start */
 .subscribe-section {
     background: rgba(255, 0, 0, 0.05);
     height: 616px;
@@ -513,7 +519,7 @@ section {
 .subscribe-container>p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -541,29 +547,35 @@ input {
     border: none;
 }
 
+::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 10%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .button_input>button {
     width: 210px;
     height: 72px;
-    flex-shrink: 0;
-    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
     background: #F00;
+    border-radius: 0px 50px 50px 0px;
     border: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
+/* Subscribe Newsletter end  */
 
 
-
-
-
-
-
-
-
-
+/* footer style start  */
 
 
 footer {
-    width: 1600px;
     height: 609px;
     flex-shrink: 0;
     background: #070211;
@@ -580,7 +592,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    
 
 }
 
@@ -596,8 +607,9 @@ footer {
 
 .call,
 .website {
-    color: #FFF;
-    font-family: Inter;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -605,10 +617,12 @@ footer {
     /* 166.667% */
 }
 
-.call>span,
-.website>span {
+.call>p,
+.website>p {
     padding-left: 16px;
+    color: #FFF;
 }
+
 
 hr {
     margin: 50px 0px 50px;
@@ -617,10 +631,10 @@ hr {
     background: rgba(255, 255, 255, 0.15);
     border: none;
 }
-.footer-icon-container{
-    width: 22%;
+
+.footer-icon-container {
+    width: 28%;
     margin: auto;
-    
-    
-    
 }
+
+/* Footer style end  */
