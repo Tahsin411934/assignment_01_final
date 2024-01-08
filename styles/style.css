@@ -143,7 +143,7 @@ section {
 
 .midnight-party-text>p {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -154,7 +154,7 @@ section {
 .midnight-party-text>button {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -195,17 +195,26 @@ section {
 
 
 .hotel-text {
+    color: #070211;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
     padding-top: 100px;
-    border: 2px solid red;
-    height: 383px;
+    border-radius: 10px;
+
+
+
+}
+
+.hotel-text-dtails {
+    width: 500px;
+    margin: auto;
+
 }
 
 .hotel-text>button {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -216,7 +225,14 @@ section {
     border: none;
     margin-top: 50px;
 }
-.textcolor{
+
+.hotel-text>button:hover {
+    color: #070211;
+    background-color: aquamarine;
+
+}
+
+.textcolor {
     color: #F00;
     line-height: 56px;
 }
@@ -230,152 +246,248 @@ section {
 
 
 
-.coming-soon-container{
+.coming-soon-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0px;
-    border: 1px solid red;
+    gap: 100px;
 }
-.img-border>img{
-   padding: 30px;
-    
+
+.img-border>img {
+    margin: 20px;
+
 }
-.img-border{
+
+.img-border {
+    width: 33.33%;
+    margin: auto;
     border-radius: 50%;
     border: 10px solid red;
 }
 
-.holiday-offer-section-images{
-    background-image: url('../images/Rectangle\ 2.png');
-    background-size: contain;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    border-radius: 10px;
-} 
 
-.text-container{
-    width: 690px;
-}
-.text-container>h2{
-    color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
 
-}  
-.text-container>h1{
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+
+.text-container {
+    margin: auto;
+    width: 1067px;
+    padding-bottom: 67px;
+    width: 33.33%;
 }
-.text-container>p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}
-.text-and-image-container>h1{
+
+.text-container>h2 {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+
 }
-.text-and-image-container>p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}
-.text-and-image-container>img{
-    width: 140px;
-height: 140px;
-flex-shrink: 0;
-}
-.text-container>h3{
+
+.text-container>h1 {
     color: #070211;
-    font-family: Inter;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.text-container>p,
+.text-and-image-container>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.text-and-image-container {
+    width: 33.33%;
+}
+
+.text-and-image-container>h1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-and-image-container>img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.text-container>h3 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
 }
-.text-container>h1{
-    color: #F00;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.holiday-text-container>h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    line-height: normal;
+
 }
-.text-container>p{
+
+.holiday-text-container>h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Sale-off {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-text-container>p {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 968px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+
+.holiday-offer-section-images {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+
+.discount-image {
+    position: relative;
+    top: 260px;
+    left: 365px;
+}
+
+.image-style {}
+
+.img-discount {}
+
+.img-product {
+    padding-top: 156px;
+    padding-left: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Awesome-Portfolio-text>h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+padding-bottom: 16px;
+}
+.Awesome-Portfolio-text>h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+.Awesome-Portfolio-text>p{
+    color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 32px; /* 160% */
+width: 896px;
+padding-bottom: 48px;
 }
-.text-container{
-    border: 2px solid red;
-    margin: auto;
-    width: 1067px;
-    padding-bottom: 67px;
-}
-.holiday-offer-section-images{
-    display: flex;
-    gap: 13px;
-    
-}
-.img-style{
-    
-}
-.discount-image{
-    position: relative;
-    top: 110px;
-    left: 105px;
-}
-.text-container>h3{
 
-}
-.Awesome-Portfolio-images{
-    display: flex;
-    gap: 20px;
-}
-.Awesome-Portfolio-images>img{
-    width: 324px;
-height: 350px;
+
+
+
+
+.Awesome-Portfolio-images>img {
+    width: 424px;
+height: 450px;
 flex-shrink: 0;
+border-radius: 16px;
+padding-bottom: 24px;
+}
+
+.Awesome-Portfolio-images-padding{
+    padding-left: 20px;
 }
 
 
 
+.subscribe-section {}
 
-
-.subscribe-section{
-
-}
-.subscribe-container{
+.subscribe-container {
     width: 896px;
     border: 2px solid red;
     margin: auto;
     text-align: center;
 }
-.subscribe-container>h2{
+
+.subscribe-container>h2 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -385,23 +497,73 @@ flex-shrink: 0;
     line-height: normal;
     text-transform: capitalize;
 }
-.subscribe-container>p{
+
+.subscribe-container>p {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
 
+input {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.subscribe-container>button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer {
+    background: #070211;
+    height: 609px;
+}
+
+.footer-content-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer-content {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 40px;
+    /* 166.667% */
 
 
+}
 
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    height: 1px;
+}
 
-
-
-
-
-
-
+.footer-icon {}
