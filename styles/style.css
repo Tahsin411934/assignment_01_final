@@ -418,6 +418,8 @@ section {
 .img-product {
     padding-top: 37px;
     padding-left: 28px;
+   
+   
 }
 
 
@@ -627,8 +629,9 @@ hr {
 }
 
 .footer-icon-container {
-    width: 28%;
+    width: 22%;
     margin: auto;
+    display: flex;
 }
 
 /* Footer style end  */
